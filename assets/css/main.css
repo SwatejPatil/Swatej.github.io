@@ -199,10 +199,14 @@ input, select, textarea {
 
 	h1 {
 		transition: transform .2s;
-		font-size: 3rem;
+		font-size: 4rem;
 		line-height: 1.1;
 		margin: 0 0 2rem 0;
-		font-family: 'Knewave';
+		font-family: 'Knewave', cursive;
+	}
+	#p{
+		font-family: 'Helvetica', cursive;
+		font-weight: 200;
 	}
 
 	h1:hover{
@@ -341,7 +345,6 @@ input, select, textarea {
 	hr {
 		border-bottom-color: #eeeeee;
 	}
-
 
 /* Row */
 
