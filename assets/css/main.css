@@ -199,14 +199,22 @@ input, select, textarea {
 
 	h1 {
 		transition: transform .2s;
-		font-size: 4rem;
+		font-size: 5rem;
 		line-height: 1.1;
 		margin: 0 0 2rem 0;
 		font-family: 'Knewave', cursive;
 	}
 	#p{
-		font-family: 'Helvetica', cursive;
-		font-weight: 200;
+		font-weight: 100;
+		font-family: 'Roboto', sans-serif;
+
+	}
+	#svg{
+		padding: 0px;
+		margin: 0px;
+		border: 0px;
+		padding-bottom: 3rem;
+		margin-top: -1.5rem;
 	}
 
 	h1:hover{
@@ -3413,14 +3421,15 @@ input, select, textarea {
 				}
 
 		#intro h1 {
-			font-size: 5rem;
+			font-size: 4rem;
 			line-height: 1;
 		}
 
 		#intro p {
 			font-size: 1.25rem;
 			font-style: italic;
-			margin-top: -0.25rem;
+			font-weight: 300;
+			margin-top: -3.5rem;
 			text-align: center;
 		}
 
